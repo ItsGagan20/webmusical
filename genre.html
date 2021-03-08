@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!---Abel Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+
+    <!---Libre Franklin One Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+
+    <!---Rubik Mono One Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="sass/styles.css">
+    <title>Genre</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="header-text">
+            <h2>The Weeknd</h2>
+            <p>"I tried to find love
+                In someone else too many times
+                But I hope you know I mean it
+                When I tell you
+                You’re the one that was on my mind"<span>Abel Makkonen Tesfaye</span></p>
+            <button><a href="music.html#weekndAlbum">The Weeknd PlayList</a></button>
+        </div>
+        <div class="header-navbar">
+            <div class="burger">
+                <label for="btn-menu"><img src="img/icons/burger.png"></label>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="img/icons/logo4.png"></a>
+            </div>
+
+            <input type="checkbox" id="btn-menu">
+            <nav class="menu">
+                <ul>
+                    <div class="list-container">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="genre.html">Genre</a></li>
+                        <li><a href="artist.html">Artist</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <input type="checkbox" id="search-btn">
+            <div class="search-container">
+                <label for="search-btn"><img for="search-btn" class="search-img" src="img/icons/search.png"></label>
+                <div>
+                    <input class="input-search" type="text" placeholder="Search Music">
+                    <button type="button" id="search-btn"><img for="search-btn" class="search-img"
+                            src="img/icons/search.png"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner-container">
+        <video poster="img/the-weeknd-smoke.jpeg" controls>
+            <source src="video/80s-back.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!--GENRES-->
+    <section class="genre-container">
+        <h3>Music <span>Genres</span></h3>
+        <div class="genre-container--child">
+            <div>
+                <a href="#pop"><img src="img/genre/pop-pexels.jpg" alt=""></a>
+                <p>POP</p>
+            </div>
+
+            <div>
+                <a href="#rb"><img src="img/genre/r_and_b_pexels.jpg" alt=""></a>
+                <p>R&G</p>
+            </div>
+
+            <div>
+                <a href="#rock"><img src="img/genre/pexels-rock.jpg" alt=""></a>
+                <p>ROCK</p>
+            </div>
+
+            <div>
+                <a href="#latin"><img src="img/genre/latin-pexels.jpg" alt=""></a>
+                <p>LATIN</p>
+            </div>
+
+            <div>
+                <a href="#electronic"><img src="img/genre/electronic-pexels.jpg" alt=""></a>
+                <p>ELECTRONIC</p>
+            </div>
+
+            <div>
+                <a href="#hiphop"><img src="img/genre/pexels-hip-hop.jpg" alt=""></a>
+                <p>HIP-HOP</p>
+            </div>
+        </div>
+    </section>
+
+    <!--EXPLAIN GENRE-->
+    <section class="genre-explain">
+        <div class="genre_explain__pop" id="pop">
+            <img src="img/genre/pop-pexels.jpg" alt="POP">
+            <div class="genre_about">
+                <div class="genre_about--information">
+                    <h2>Pop</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit, aliquam maxime perferendis maiores ut ab repellat vitae labore magnam rem dignissimos repudiandae culpa veniam cumque officia voluptatibus totam, consequuntur, blanditiis voluptas aut? <b>Pop</b> sunt asperiores in, cum nulla natus iste commodi.</p>
+                </div>
+                <div class="genre_playlist-container">
+                    <div class="genre_playlist">
+                        <img src="img/artist/dua_lipa.jpg" alt="Dua Lipa">
+                        <p>Dua Lipa<span>Love Again</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/charlie-puth.jpeg" alt="Charlie Puth">
+                        <p>Charlie Puth<span>Suffer</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/album/jusin-bieber_changes.jpg" alt="Justin Bieber">
+                        <p>Justin Bieber<span>Anyone</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_down.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="genre_explain__rg" id="rb">
+            <img src="img/genre/r_and_b_pexels.jpg" alt="R&B">
+            <div class="genre_about">
+                <div class="genre_about--information">
+                    <h2>R&B</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, nobis? Ipsum quaerat
+                        temporibus placeat <b>R&B</b> blanditiis deleniti, debitis error quod, officiis aperiam esse optio
+                        beatae asperiores modi. Blanditiis dicta quos nisi eaque inventore, fugit odit ratione explicabo
+                        assumenda.</p>
+                </div>
+                <div class="genre_playlist-container">
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>In Your Eyes</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Save Your Tears</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_down.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="genre_explain__rock" id="rock">
+            <img src="img/genre/pexels-rock.jpg" alt="Rock">
+            <div class="genre_about">
+                <div class="genre_about--information">
+                    <h2>Rock</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit suscipit corporis tenetur dolores illo est? Iusto harum maiores repudiandae, velit est officia debitis provident possimus, cumque fuga eos nam doloribus. <b>Rock</b> natus veritatis beatae fuga. Excepturi eius quam, a cum vitae laborum!
+                    </p>
+                </div>
+                <div class="genre_playlist-container">
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_down.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="genre_explain__latin" id="latin">
+            <img src="img/genre/latin-pexels.jpg" alt="Latin">
+            <div class="genre_about">
+                <div class="genre_about--information">
+                    <h2>Latin</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur <b>Latin</b> elit. Molestias repellendus, facere excepturi
+                        recusandae sunt nulla nisi quasi quos sequi, ut voluptas tempora beatae! Laborum tenetur, saepe
+                        ipsa incidunt delectus, beatae dolorum asperiores voluptates veniam culpa, eius ea. Tenetur,
+                        voluptatem.</p>
+                </div>
+                <div class="genre_playlist-container">
+                    <div class="genre_playlist">
+                        <img src="img/artist/bunny.jpg" alt="Bad Bunny">
+                        <p>Bad Bunny<span>Dakiti</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/ozuna.jpg" alt="Ozuna">
+                        <p>Ozuna<span>Se Preparo</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/bunny.jpg" alt="Bad Bunny">
+                        <p>Bad Bunny<span>Hoy Cobré</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_down.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="genre_explain__electronic" id="electronic">
+            <img src="img/genre/electronic-pexels.jpg" alt="Electronic">
+            <div class="genre_about">
+                <div class="genre_about--information">
+                    <h2>Electronic</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos in dolores quisquam inventore
+                        libero. Voluptates dolorum ullam reprehenderit iste temporibus inventore id voluptas eius.
+                        Pariatur <b>Electronic</b> eaque accusamus aliquam, aspernatur, ipsam consequatur nostrum et
+                        commodi ratione maiores veritatis voluptas.</p>
+                </div>
+                <div class="genre_playlist-container">
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_down.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="genre_explain__hiphop" id="hiphop">
+            <img src="img/genre/pexels-hip-hop.jpg" alt="Hip-Hop">
+            <div class="genre_about">
+                <div class="genre_about--information">
+                    <h2>Hip-Hop</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus consequatur dolores voluptatem
+                        cupiditate error. Earum quisquam explicabo <b>Hip Hop</b> nulla vero nostrum veritatis
+                        laudantium laborum mollitia tempora recusandae rerum molestias, quia atque officiis illum natus
+                        libero asperiores accusantium ratione?</p>
+                </div>
+                <div class="genre_playlist-container">
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_up.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                    <div class="genre_playlist">
+                        <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+                        <p>The Weeknd<span>Blinding Lights</span></p>
+                        <div class="rating">
+                            <img src="img/icons/arrow_down.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_full.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                            <img src="img/icons/star_empty.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--ADS-->
+    <div class="ads">
+        <img src="img/ads.png" alt="">
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <img src="img/billboard-dark.png" alt="">
+        <div class="footer-subscribe">
+            <input id="email" type="email" placeholder="Subscribe Now!">
+            <button type="submit" for="email"><img src="img/icons/arrow.png" alt="Arrow CSS"></button>
+        </div>
+        <div class="social-network">
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icons/instagram.png" alt="Instagram"></a>
+            <a href="https://ca-es.facebook.com/" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/?lang=ca" target="_blank"><img src="img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/?hl=ca&gl=ES" target="_blank"><img src="img/icons/youtube.png"
+                    alt="Youtube"></a>
+            <a href="https://www.spotify.com/es/" target="_blank"><img src="img/icons/spotify.png" alt="Spotify"></a>
+        </div>
+        <div class="footer-sponsors">
+            <img src="img/billboard-logo.png" alt="">
+        </div>
+        <P>Copyright&copy; 2021</P>
+    </footer>
+
+</body>
+
+</html>

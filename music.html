@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!---Abel Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+
+    <!---Libre Franklin One Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+
+    <!---Rubik Mono One Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/styles.css">
+    <title>Music</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header>
+        <div class="header-text">
+            <h2>The Weeknd</h2>
+            <p>"I look around and
+                Sin City's cold and empty
+                No one's around to judge me
+                I can't see clearly when you're gone"<span>Abel Makkonen Tesfaye</span></p>
+            <button><a href="music.html#weekndAlbum">The Weeknd PlayList</a></button>
+        </div>
+        <div class="header-navbar">
+            <div class="burger">
+                <label for="btn-menu"><img src="img/icons/burger.png"></label>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="img/icons/logo4.png"></a>
+            </div>
+
+            <input type="checkbox" id="btn-menu">
+            <nav class="menu">
+                <ul>
+                    <div class="list-container">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="genre.html">Genre</a></li>
+                        <li><a href="artist.html">Artist</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <input type="checkbox" id="search-btn">
+            <div class="search-container">
+                <label for="search-btn"><img for="search-btn" class="search-img" src="img/icons/search.png"></label>
+                <div>
+                    <input class="input-search" type="text" placeholder="Search Music">
+                    <button type="button" id="search-btn"><img for="search-btn" class="search-img"
+                            src="img/icons/search.png"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--ALBUM BANNER-->
+    <div class="album-banner--container">
+        <img src="img/album/featured-albums.png" alt="">
+    </div>
+
+    <!--ALBUMS-->
+    <section class="top-albums">
+        <h3>Albums</h3>
+        <div class="top-albums__container">
+            <div><a href="#postMaloneAlbum"><img src="img/album/post-malone_hollywoods bleeding.jpg" alt="Post Malone Hollywood's Bleeding">
+                <p>Hollywood's<br>Bleeding<span>Post Malone</span></p></a>
+            </div>
+
+            <div><a href="#drakeAlbum"><img src="img/album/drake_scorpion.jpg" alt="Drake Album Scorpion">
+                <p>Drake<span>Scorpion</span></p></a>
+            </div>
+
+            <div><a href="#lipaAlbum"><img src="img/album/dua-lipa_future-nostalgia.jpg" alt="Dua Lipa Album Future Nostalgia">
+                <p>Dua Lipa<span>Future Nostalgia</span></p></a>
+            </div>
+
+            <div><a href="#harryAlbum"><img src="img/album/harry-styles_fine-line.jpg" alt="Harry Styles Album Fine Lines">
+                <p>Harry Styles<span>Fine Lines</span></p></a>
+            </div>
+
+            <div><a href="#weekndAlbum"><img src="img/album/the-weeknd-after-hours.jpg" alt="The Weeknd Album After Hours">
+                <p>After Hours<span>The Weeknd</span></p></a>
+            </div>
+
+            <div><a href="#justinAlbum"><img src="img/album/jusin-bieber_changes.jpg" alt="Justin Bieber Album Changes">
+                <p>Changes<span>Justin Bieber</span></p></a>
+            </div>
+        </div>
+    </section>
+
+    <!--FEATURED SONGS-->
+    <section class="music-ranking">
+        <h3>Week Ranking</h3>
+        <div>
+            <img src="img/artist/weeknd.jpg" alt="The Weeknd Blinding Lights">
+            <p>Blinding Lights<span>The Weeknd</span><span>After Hours</span></p>
+        </div>
+
+        <div>
+            <img src="img/artist/camila.jpg" alt="Camila Cabello Señorita">
+            <p>Señorita<span>Camila Cabello</span><span>NMDP - Camila cabello</span></p>
+        </div>
+
+        <div>
+            <img src="img/artist/dua_lipa.jpg" alt="Dua Lipa Love Again">
+            <p>Love Again<span>Dua Lipa</span><span>Future Nostalgia</span></p>
+        </div>
+
+        <div>
+            <img src="img/artist/post_malone.jpg" alt="Post Malone Circles">
+            <p>Circles<span>Post Malone </span><span>Hollywood's Bleeding</span></p>
+        </div>
+
+        <div>
+            <img src="img/artist/charlie-puth.jpeg" alt="Charlie Puth See you Again">
+            <p>See you Again<span>Wiz Khalifa ft. Charlie Puth</span><span>Lorem, ipsum.</span></p>
+        </div>
+
+        <div>
+            <img src="img/artist/drake.jpg" alt="Drake Laugh Now Cry Later">
+            <p>Laugh Now Cry Later<span>Drake ft. Lil Durk</span><span>Lorem, ipsum.</span></p>
+        </div>
+
+    </section>
+
+
+    <!--ALBUM PLAYLIST-->
+    <section class="album-container" id="albums">
+        <h3>PlayList</h3>
+        <div class="album-container__cards">
+            <div class="album-container__cards--malone" id="postMaloneAlbum">
+                <img src="img/album/post-malone_hollywoods bleeding.jpg" alt="Post Malone Hollywood's Bleeding">
+                <p><span>Hollywood's Bleeding</span></p>
+                <div class="hip-hop-card__playlist">
+                    <p>Circles <span>3:34 <img src="img/icons/play.png" alt=""></span></p>              
+                    <p>Sunflower<span>2:03<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Myself <span>2:38<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>I Know<span>2:21<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Wow <span>2:29<img src="img/icons/play.png" alt=""></span></p> 
+                </div>
+                <p><span>Post Malone</span></p>
+            </div>
+            <div class="album-container__cards--weeknd" id="weekndAlbum">
+                <img src="img/album/the-weeknd-after-hours.jpg" alt="The Weeknd After Hours">
+                <p><span>After Hours</span></p>
+                <div class="rb-card__playlist">
+                    <p>Blinding Lights <span>3:20<img src="img/icons/play.png" alt=""></span></p>              
+                    <p>In Your Eyes<span>3:58<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Save Your Tears<span>3:36<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>After Hours<span>6:01<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Heartless<span>3:18<img src="img/icons/play.png" alt=""></span></p> 
+                </div>
+                <p><span>The Weeknd</span></p>
+            </div>
+
+            <div class="album-container__cards--justin" id="justinAlbum">
+                <img src="img/album/jusin-bieber_changes.jpg" alt="Justin Bieber Changes">
+                <p><span>Changes</span></p>
+                <div class="pop-card__playlist">
+                    <p>Intentions<span>3:32<img src="img/icons/play.png" alt=""></span></p>              
+                    <p>Yummy<span>3:28<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Take It Out on Me<span>2:58<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Changes<span>2:15<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Available<span>3:15<img src="img/icons/play.png" alt=""></span></p> 
+                </div>
+                <p><span>Justin Bieber</span></p>
+            </div>
+
+            <div class="album-container__cards--lipa" id="lipaAlbum">
+                <img src="img/album/dua-lipa_future-nostalgia.jpg" alt="Dua Lipa Future Nostalgia">
+                <p><span>Future Nostalgia</span></p>
+                <div class="pop-card__playlist">
+                    <p>Cool<span>3:29<img src="img/icons/play.png" alt=""></span></p>              
+                    <p>Levitating<span>3:23<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Love Again<span>2:38<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>I Know<span>4:18<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Boys Will Be Boys<span>2:46<img src="img/icons/play.png" alt=""></span></p> 
+                </div>
+                <p><span>Dua Lipa</span></p>
+            </div>
+
+            <div class="album-container__cards--drake" id="drakeAlbum">
+                <img src="img/album/drake_scorpion.jpg" alt="Drake Scorpion">
+                <p><span>Scorpion</span></p>
+                <div class="hip-hop-card__playlist">
+                    <p>God's Plan<span>3:19<img src="img/icons/play.png" alt=""></span></p>              
+                    <p>Elevate<span>3:04<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Nonstop<span>3:58<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Can't Take a Joke<span>2:43<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Final Fantasy<span>3:39<img src="img/icons/play.png" alt=""></span></p> 
+                </div>
+                <p><span>Drake</span></p>
+            </div>
+
+            <div class="album-container__cards--harry" id="harryAlbum">
+                <img src="img/album/harry-styles_fine-line.jpg" alt="Harry Styles Fine Line">
+                <p><span>Fine Line</span></p>
+                <div class="pop-card__playlist">
+                    <p>Watermelon Sugar<span>2:53<img src="img/icons/play.png" alt=""></span></p>              
+                    <p>Adore You<span>3:27<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Falling<span>4:00<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Cherry<span>4:19<img src="img/icons/play.png" alt=""></span></p> 
+                    <p>Lights Up<span>2:52<img src="img/icons/play.png" alt=""></span></p> 
+                </div>
+                <p><span>Harry Styles</span></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--ADS-->
+    <div class="ads">
+        <img src="img/ads.png" alt="">
+    </div>
+
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <img src="img/billboard-dark.png" alt="">
+        <div class="footer-subscribe">
+            <input id="email" type="email" placeholder="Subscribe Now!">
+            <button type="submit" for="email"><img src="img/icons/arrow.png" alt="Arrow CSS"></button>
+        </div>
+        <div class="social-network">
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/icons/instagram.png" alt="Instagram"></a>
+            <a href="https://ca-es.facebook.com/" target="_blank"><img src="img/icons/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/?lang=ca" target="_blank"><img src="img/icons/twitter.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com/?hl=ca&gl=ES" target="_blank"><img src="img/icons/youtube.png"
+                    alt="Youtube"></a>
+            <a href="https://www.spotify.com/es/" target="_blank"><img src="img/icons/spotify.png" alt="Spotify"></a>
+        </div>
+        <div class="footer-sponsors">
+            <img src="img/billboard-logo.png" alt="">
+        </div>
+        <P>Copyright&copy; 2021</P>
+    </footer>
+
+</body>
+
+</html>
