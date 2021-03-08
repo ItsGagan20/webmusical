@@ -2315,7 +2315,7 @@ html {
     margin-top: 3rem;
     width: 75rem;
     height: 20rem;
-    background-image: url("/img/banner-carousel-web.png");
+    background-image: url("../img/banner-carousel-web.png");
     background-size: 100% 100%;
     background-repeat: repeat;
     -webkit-animation: automaticSlide 60s infinite linear;
