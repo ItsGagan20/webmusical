@@ -85,7 +85,7 @@ html {
 
 /*footer-subscribe*/
 /*social-network*/
-@media only screen and (min-width: 350px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   header {
     display: -webkit-box;
     display: -ms-flexbox;
