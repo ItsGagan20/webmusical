@@ -21,7 +21,7 @@ $fontTypeFour: "Alfa Slab One", cursive;
 /*MEDIA-QUERYS*/
 $desktop-media: "only screen and (min-width : 1024px)";
 $tablet-media: "only screen and (min-width : 768px) and (max-width: 1023px)";
-$mobile-media: "only screen and (min-width : 350px) and (max-width:767px)";
+$mobile-media: "only screen and (max-width:767px)";
 $largue-desktop-media: "only screen and (min-width : 1824px)";
 html {
     scroll-behavior: smooth;
